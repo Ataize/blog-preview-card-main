@@ -15,10 +15,10 @@ body {
   width: 100%;
   height: 100vh;
 }
-.main{
+.card{
     background-color: var(--white);
     width: 327px;
-    height: 501px;
+    min-height: 501px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -28,57 +28,56 @@ body {
     box-shadow: 0.5em 0.5em;
 }
 
-.main__image{
+.card__image{
     width: 100%;
     border-radius: 20px;
 }
-.main__category{
+.card__category{
     background-color: var(--yellow);
     color: var(--gray-950);
     width: 73px;
-    height: 26px;
     border-radius: 4px;
     text-align: center;
     font-weight: 800;
 }
-.main__date{
+.card__date{
     font-size: 0.75rem;
     color: var(--gray-950);
 }
-.main__title{
+.card__title{
     color: var(--gray-950);
     font-weight: bold;
     width: 100%;
     font-size: 1.25rem;
 }
-.main__title:hover{
+.card__title:hover{
     cursor: pointer;
     color: var(--yellow);
 }
-.main__description{
+.card__description{
     width: 90%;
     color: var(--gray-500);
     font-size: 0.8rem;
     line-height: 150%;
 }
-.main__user{
+.card__user{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin: 20px 0;
 }
-.main__user-photo{
+.card__user-photo{
     width: 32px;
     height: 32px;
     margin-right: 15px;
 }
-.main__user-name{
+.card__user-name{
     color: var(--gray-950);
     font-weight: bold;
     font-size: .8rem;
 }
 @media (min-width: 768px) {
-    .main {
+    .card {
       width: 384px;
       height: auto;
     }
