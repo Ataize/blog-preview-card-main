@@ -54,6 +54,6 @@ I used some aspects of BEM (Block Element Modifier)
 
 ## Author
 
-- Frontend Mentor - [@yourusername]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/Ataize]
 - Linkedin - [https://www.linkedin.com/in/ataizefeitosa/]
 
